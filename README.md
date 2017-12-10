@@ -11,7 +11,7 @@ A simple CLI to analyze the guts of your application!
 
 #### COMMANDS FOR RUN THE PROJECT ####
 
-* `git clone https://github.com/Horaddrim/morfeo` 
+* `git clone https://github.com/Horaddrim/Morfeo` 
 * `cd morfeo`
 * `go build .`
 * `./morfeo build <args>`
