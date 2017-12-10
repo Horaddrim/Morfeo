@@ -1,6 +1,6 @@
-# Shawee Build 
+# Morfeo
 
-CLI para submit e teste de projetos que utilizarem a plataforma Shawee.
+A simple CLI to analyze the guts of your application!
 
 ### How do I get set up? ###
 
@@ -11,13 +11,12 @@ CLI para submit e teste de projetos que utilizarem a plataforma Shawee.
 
 #### COMMANDS FOR RUN THE PROJECT ####
 
-* `git clone https://bitbucket.org/igor-franca/shawee-build` 
-* `cd shawee-build`
+* `git clone https://github.com/Horaddrim/morfeo` 
+* `cd morfeo`
 * `go build .`
-* `./shawee-build build <args>`
+* `./morfeo build <args>`
 * Enjoy! :smile:
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* To me! @Horaddrim or via email lee12rock@gmail.com
