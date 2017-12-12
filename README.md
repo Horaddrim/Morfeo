@@ -6,12 +6,12 @@ A simple CLI to analyze the guts of your application!
 
 * Golang >= 1.9
 * UNIX based OS
-* No Tests yet :gulp:
+* No Tests yet :camel:
 * For now there are only two commands the command *build* and *help*
 
 #### COMMANDS FOR RUN THE PROJECT ####
 
-* `git clone https://github.com/Horaddrim/morfeo` 
+* `git clone https://github.com/Horaddrim/Morfeo` 
 * `cd morfeo`
 * `go build .`
 * `./morfeo build <args>`
