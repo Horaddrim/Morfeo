@@ -14,7 +14,7 @@
 
 package main
 
-import "bitbucket/horaddrim/morfeu/cmd"
+import "github.com/horaddrim/morfeo/cmd"
 
 func main() {
 	cmd.Execute()
