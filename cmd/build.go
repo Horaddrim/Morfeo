@@ -74,7 +74,7 @@ func Build(args []string) {
 	var out Process
 	var control sync.WaitGroup
 
-	fmt.Printf("Running... %v\n", args[2:])
+	fmt.Printf("Running... %v\n", args[0:])
 
 	control.Add(1)
 
@@ -102,18 +102,18 @@ func Build(args []string) {
 func getLangVersion(out *Process, control *sync.WaitGroup, args []string) {
 	defer control.Done()
 
-	version, err := exec.Command(langVersion(args[2])).CombinedOutput()
+	version, err := exec.Command(langVersion(args[0])).CombinedOutput()
 
 	validateError(err)
 
-	out.lang = cleanReturn(os.Args[2], version)
+	out.lang = cleanReturn(os.Args[0], version)
 }
 
-// getExitCode runs the command passed to the system and determines if it's return a valid output
+// getExitCode runs the command passed to the system and determines if its return a valid output
 func getExitCode(out *Process, control *sync.WaitGroup, args []string) {
 	defer control.Done()
 
-	cmd := exec.Command(args[2], args[3:]...)
+	cmd := exec.Command(args[0], args[1:]...)
 
 	cmd.Start()
 	cmd.Wait()
