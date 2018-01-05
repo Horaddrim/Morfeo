@@ -1,5 +1,6 @@
 # Morfeo
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/Horaddrim/Morfeo)](https://goreportcard.com/report/github.com/Horaddrim/Morfeo)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1531/badge)](https://bestpractices.coreinfrastructure.org/projects/1531)
 
 A simple CLI to analyze the guts of your application!
